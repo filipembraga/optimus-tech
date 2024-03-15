@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-texto: #667085;
+    --cor-texto-titulo: #101828;
+    --cor-destaque: #8E2424;
+
+    --fonte-primaria: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;   
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    color: #3A404E;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.cabecalho__botoes {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 5em;
+    margin-right: auto;   
+}
+
+.link__item_menu {
+    color: var(--cor-texto);
+    margin-right: 1em;
+}
+
+.bt__entrar {
+    color: var(--cor-texto);
+    margin-right: 1em
+}
+
+.bt__cadastrar {
+    color: var(--cor-fundo);
+    background-color: #8E2424;
+    padding: 0.8em 1.6em;
+    border-radius: 8px;
+}
