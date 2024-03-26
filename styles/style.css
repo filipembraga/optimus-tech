@@ -61,7 +61,7 @@
 
 .bt__cadastrar {
     color: var(--cor-fundo);
-    background-color: #8E2424;
+    background-color: var(--cor-destaque);
     padding: 0.8em 1.6em;
     border-radius: 8px;
 }
@@ -72,7 +72,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2em 25%;
+    padding: 3em 25%;
 }
 
 .cabecalho h1, span {
@@ -92,4 +92,34 @@
     color: var(--cor-texto);
     font-weight: 400;
     font-size: 20px;
+}
+
+.metricas {
+    display: flex;
+    padding: 0 10em;
+    width: 100%;
+}
+
+.metricas_item {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.metricas_item span {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--cor-destaque);
+}
+
+.metricas_item h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-texto-titulo);
+    margin: 0.5em 0;
+}
+
+.metricas_item p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-texto);
 }
