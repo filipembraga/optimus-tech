@@ -96,7 +96,7 @@
 
 .metricas {
     display: flex;
-    padding: 0 10em;
+    padding: 0 10em 5em 10em;
     width: 100%;
 }
 
@@ -122,4 +122,40 @@
     font-weight: 400;
     font-size: 16px;
     color: var(--cor-texto);
+}
+
+.divulgacao_vagas_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4em 3em;
+}
+
+.divulgacao_vagas span {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-destaque);
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 0.5em 1em;
+    border-radius: 16px;
+}
+
+.divulgacao_vagas h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cor-texto-titulo);
+    margin-bottom: 0.7em;
+}
+
+.divulgacao_vagas p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-texto);
+}
+
+.divulgacao_vagas_banner img {
+    width: 100%;
+    padding: 0 8em;
+    margin-top: 3em;
 }
