@@ -5,6 +5,9 @@
     --cor-texto: #667085;
     --cor-texto-titulo: #101828;
     --cor-destaque: #8E2424;
+    --cor-fundo-secundario: #F9FAFB;
+    --cor-mouse-hover: #f78484;
+
 
     --fonte-primaria: "Inter", sans-serif;
 }
@@ -53,7 +56,7 @@ h1, h3, h4 {
     margin-right: auto;   
 }
 
-.menu__item {
+.menu_item {
     color: var(--cor-texto);
     margin-right: 1em;
 }
@@ -68,6 +71,12 @@ h1, h3, h4 {
     background-color: var(--cor-destaque);
     padding: 0.8em 1.6em;
     border-radius: 8px;
+}
+
+.bt__cadastrar:hover {
+    color: var(--cor-fundo);
+    background-color: var(--cor-mouse-hover);
+    cursor: pointer;
 }
 
 .cabecalho {
@@ -238,6 +247,45 @@ h1, h3, h4 {
 
 .depoente_cargo {
     color: var(--cor-texto);
+    font-weight: 400;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5em;
+    padding: 5em;
+    background-color: var(--cor-fundo-secundario);
+    gap: 1em;
+}
+
+.rodape h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape p {
+    font-size: 20px;
+    color: var(--cor-texto);
+    font-weight: 400;
+}
+
+.rodape_formulario {
+    margin: 1em auto;
+}
+
+.rodape_formulario input {
+    width: 360px;
+    padding: 0.8em 1.4em;
+    border-radius: 8px;
+    margin-right: 1em;
+}
+
+.rodape span {
+    font-size: 16px;
+    color: #98A2B3;
     font-weight: 400;
 }
 
